@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.box {
+    margin-bottom: 15px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.controls .left, .controls .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls .icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.controls .icons i {
+    font-size: 18px;
+    color: #333;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.controls .icons i:hover {
+    color: #4CAF50;
+}
+
+.exchange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exchange i {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.exchange i:hover {
+    transform: rotate(180deg);
+}
+
+.controls select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    color: #333;
+    font-size: 14px;
+    width: 120px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.text-controls {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-controls textarea {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    font-size: 14px;
+    resize: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.from-text {
+    height: 100px;
+}
+
+.to-text {
+    height: 100px;
+    background-color: #e0e0e0;
+}
+
+#btnTranslate {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+#btnTranslate:hover {
+    background-color: #45a049;
+}
